@@ -44,12 +44,12 @@ export const NavBar = () => {
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">
-                                <a href='#'> <img src={navIcon1} alt=""/></a>
-                                <a href='#'> <img src={navIcon2} alt=""/></a>
-                                <a href='#'> <img src={navIcon3} alt=""/></a>
+                                <a href='https://github.com/victor-oliveira-dev98' target="_blank"> <img src={navIcon1} alt=""/></a>
+                                <a href='linkedin.com/in/victor-hugo-faria-de-oliveira-340b71190/' target="_blank"> <img src={navIcon2} alt=""/></a>
+                                <a href='https://www.instagram.com/victor_h.fo/' target="_blank"> <img src={navIcon3} alt=""/></a>
                             </div>
-                            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
-                        </span>
+                            <a className="text-decoration-none" href="https://api.whatsapp.com/send?phone=5562984097793" target="_blank"> <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button></a> 
+                        </span> 
                     </Navbar.Collapse>
 
                 </Container>

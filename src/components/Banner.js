@@ -59,7 +59,7 @@ export const Banner = () => {
                             </h1>
                             <p> For a long time ago I worked in the field of law. I worked at the 2nd district police station of Goiânia/Brazil as a volunteer. So I worked at the Enel Energy Distribution from goiás for one year. After that I passed the contest for interns of the Court of Justice of the State of Goiás where I worked in the Civil Court, organized crime court and in the 6th court of the public farm. After finishing college I worked as a lawyer, where I started studying Systems Analysis and Development. Now while studying I work as a freelancer in website
 development by Wordpress and coding. </p>
-                            <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size ={24}/> </button>
+                            <a className="text-decoration-none" href="https://api.whatsapp.com/send?phone=5562984097793" target="_blank"> <button onClick> Let's connect <ArrowRightCircle size ={24}/> </button> </a> 
                         </div> }
                         </TrackVisibility>
                     </Col>
